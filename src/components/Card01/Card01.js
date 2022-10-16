@@ -5,9 +5,9 @@ export default function Card(props) {
 
   return (
 
-    <div className="card-content">
+    <article className="card-content">
       <img
-        className={`img-content`}
+        className="img-content"
         src={source}
         alt=""
       />
@@ -27,6 +27,6 @@ export default function Card(props) {
           </h4>
         </div>
       </div>
-    </div>
+    </article>
   )
 }
