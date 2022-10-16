@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Card01 from './components/Card01/Card01';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card01
+      source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
+      tag="Cards"
+      date="16-10-2022"
+      title="Card 01"
+      content="Example Card Content"/>
     </div>
   );
 }
