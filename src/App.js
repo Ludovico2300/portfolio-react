@@ -1,38 +1,21 @@
-import Card01 from './components/Cards/Card01/Card01';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Components from "./pages/Components";
+import About from "./pages/About";
+import NoPage from "./pages/NoPage";
+import Cards from "./pages/components/Cards";
 
 function App() {
   return (
-    <div className="app-container">
-      <h1 className="title">Components</h1>
-      <ul className="components-container">
-        <li>Cards
-          <div className="list-container">
-            <Card01
-              source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
-              tag="Cards"
-              date="16-10-2022"
-              title="Card 01"
-              content="Example Card Content" />
-            <Card01
-              source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
-              tag="Cards"
-              date="16-10-2022"
-              title="Card 01"
-              content="Example Card Content" />
-          </div>
-        </li>
-        <li>Buttons
-          <div className="list-container">
-            <Card01
-              source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
-              tag="Cards"
-              date="16-10-2022"
-              title="Card 01"
-              content="Example Card Content" />
-          </div>
-        </li>
-      </ul>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="components" element={<Components />} />
+        <Route path="components/cards" element={<Cards />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
