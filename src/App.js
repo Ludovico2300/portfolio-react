@@ -1,11 +1,11 @@
-import Card01 from './components/Card01/Card01';
+import Card01 from './components/Cards/Card01/Card01';
 
 function App() {
   return (
     <div className="app-container">
       <h1 className="title">Components</h1>
       <ul className="components-container">
-        <li>Card01
+        <li>Cards
           <div className="list-container">
             <Card01
               source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
@@ -21,7 +21,7 @@ function App() {
               content="Example Card Content" />
           </div>
         </li>
-        <li>Card02
+        <li>Buttons
           <div className="list-container">
             <Card01
               source="https://www.stray-cat-advice.com/wp-content/uploads/2018/05/httpspixabay.comenusersFritz_the_Cat-2.jpg"
