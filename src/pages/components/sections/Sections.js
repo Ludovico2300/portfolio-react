@@ -1,13 +1,12 @@
 import { Link, useNavigate } from 'react-router-dom';
 
-function Components() {
+function Sections() {
     const navigate = useNavigate();
     return (
-        <div className="components-page">
-            <h1 className="title">Components</h1>
+        <div className="sections-page">
+            <h1 className="title">Sections</h1>
             <div className="components-container">
-                <Link to="/components/utils" className="link">Utils</Link>
-                <Link to="/components/sections" className="link">Sections</Link>
+                <Link to="/components/sections/cards" className="link">Tab Section</Link>
             </div>
             <div className='links'>
             <button onClick={()=> navigate(-1)} className="link">Go Back</button>
@@ -16,4 +15,4 @@ function Components() {
     );
 }
 
-export default Components;
+export default Sections;

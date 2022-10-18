@@ -193,6 +193,156 @@ html {
   text-decoration: underline;
 }
 
+.utils-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0rem 2rem 0rem;
+  width: 100%;
+  height: 100%;
+}
+
+.utils-page .title {
+  font-weight: bolder;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.utils-page .components-container {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.utils-page .components-container .link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.utils-page .components-container .link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.utils-page .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.utils-page .links .link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.utils-page .links .link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.sections-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0rem 2rem 0rem;
+  width: 100%;
+  height: 100%;
+}
+
+.sections-page .title {
+  font-weight: bolder;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.sections-page .components-container {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sections-page .components-container .link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.sections-page .components-container .link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.sections-page .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.sections-page .links .link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.sections-page .links .link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 .cards-page {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
-import Card01 from "../../components/Cards/Card01/Card01";
+import { useNavigate } from "react-router-dom";
+import Card01 from "../../../components/Cards/Card01/Card01";
 
 function Cards() {
+const navigate=useNavigate()
+
     return (
         <div className="cards-page">
             <h1 className="title">Components</h1>
@@ -16,7 +18,7 @@ function Cards() {
                 </li>
             </ul>
             <div className='links'>
-                <Link to="/components" className="link">Go Back</Link>
+                <button onClick={()=> navigate(-1)} className="link">Go Back</button>
             </div>
         </div>
     )

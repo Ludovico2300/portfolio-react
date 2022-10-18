@@ -3,7 +3,9 @@ import Home from "./pages/Home";
 import Components from "./pages/Components";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
-import Cards from "./pages/components/Cards";
+import Utils from "./pages/components/utils/Utils";
+import Sections from "./pages/components/sections/Sections";
+import Cards from "./pages/components/utils/Cards";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="components" element={<Components />} />
-        <Route path="components/cards" element={<Cards />} />
+        <Route path="components/utils" element={<Utils />} />
+        <Route path="components/sections" element={<Sections />} />
+        <Route path="components/utils/cards" element={<Cards />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
