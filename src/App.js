@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Components from "./pages/Components";
 import About from "./pages/About";
+import Resume from "./pages/Resume";
 import NoPage from "./pages/NoPage";
 import Utils from "./pages/components/utils/Utils";
 import Sections from "./pages/components/sections/Sections";
@@ -17,6 +18,7 @@ function App() {
         <Route path="components/sections" element={<Sections />} />
         <Route path="components/utils/cards" element={<Cards />} />
         <Route path="about" element={<About />} />
+        <Route path="resume" element={<Resume />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
