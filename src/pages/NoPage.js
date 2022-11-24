@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 
-function NoPage() {
+export default function NoPage() {
     const navigate = useNavigate();
     return (
         <div className="no-page">
@@ -10,5 +10,3 @@ function NoPage() {
         </div>
     )
 }
-
-export default NoPage;
