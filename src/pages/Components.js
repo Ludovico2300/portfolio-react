@@ -6,12 +6,13 @@ function Components() {
         <div className="components-page">
             <h1 className="title">Components</h1>
             <div className="components-container">
-                <Link to="/components/utils" className="link">Utils</Link>
-                <Link to="/components/sections" className="link">Sections</Link>
+                <Link to="/projects/components/utils" className="link">Utils</Link>
+                <Link to="/projects/components/sections" className="link">Sections</Link>
             </div>
             <div className='links'>
             <button onClick={()=> navigate(-1)} className="link">Go Back</button>
             </div>
+            
         </div>
     );
 }
